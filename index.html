@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#38454d">
+  <meta name="description" content="Manual do Autuado — INFOSCIP Fiscalização. Versão digital interativa com índice, busca e imagens do manual original.">
+  <title>Manual do Autuado — INFOSCIP Fiscalização</title>
+  <link rel="stylesheet" href="css/manual-infoscip.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="topbar">
+    <button id="menuBtn" class="icon-btn menu-btn" type="button" aria-label="Abrir índice" aria-controls="sidebar" aria-expanded="false">☰</button>
+    <a class="brand" href="#inicio" aria-label="Voltar ao início do manual">
+      <img src="img/branding/logo-cbmmg.webp" alt="Corpo de Bombeiros Militar de Minas Gerais" class="brand-cbmmg">
+      <span class="brand-divider"></span>
+      <img src="img/branding/logo-infoscip.webp" alt="INFOSCIP Fiscalização" class="brand-infoscip">
+    </a>
+    <div class="top-actions">
+      <button id="printBtn" class="top-action" type="button" title="Imprimir ou salvar em PDF">Imprimir</button>
+      <a class="top-action primary" href="https://fiscalizacaobombeiros.mg.gov.br" target="_blank" rel="noopener">Acessar INFOSCIP</a>
+    </div>
+  </header>
+
+  <div id="sidebarBackdrop" class="sidebar-backdrop" hidden></div>
+  <aside id="sidebar" class="sidebar" aria-label="Índice do manual">
+    <div class="sidebar-head">
+      <strong>Sumário</strong>
+      <button id="closeMenuBtn" class="icon-btn close-menu" type="button" aria-label="Fechar índice">×</button>
+    </div>
+    <nav class="toc"><a class="toc-link toc-level-1" href="#cap-1" data-target="cap-1"><span class="toc-num">1</span><span>1. INTRODUÇÃO</span></a>
+<a class="toc-link toc-level-1" href="#cap-2" data-target="cap-2"><span class="toc-num">2</span><span>2. FUI AUTUADO, E AGORA?</span></a>
+<a class="toc-link toc-level-2" href="#cap-2-1" data-target="cap-2-1"><span class="toc-num">2.1</span><span>2.1. Formas de recebimento da autuação</span></a>
+<a class="toc-link toc-level-2" href="#cap-2-2" data-target="cap-2-2"><span class="toc-num">2.2</span><span>2.2. Próximos passos após a vistoria e recebimento da Autuação</span></a>
+<a class="toc-link toc-level-1" href="#cap-3" data-target="cap-3"><span class="toc-num">3</span><span>3. ACESSO AO SISTEMA</span></a>
+<a class="toc-link toc-level-2" href="#cap-3-1" data-target="cap-3-1"><span class="toc-num">3.1</span><span>3.1. Login no Infoscip</span></a>
+<a class="toc-link toc-level-1" href="#cap-4" data-target="cap-4"><span class="toc-num">4</span><span>4. ACESSAR MEUS PROCESSOS</span></a>
+<a class="toc-link toc-level-2" href="#cap-4-1" data-target="cap-4-1"><span class="toc-num">4.1</span><span>4.1. Vincular processo com o código de acesso</span></a>
+<a class="toc-link toc-level-2" href="#cap-4-2" data-target="cap-4-2"><span class="toc-num">4.2</span><span>4.2. Visualizar meu processo</span></a>
+<a class="toc-link toc-level-1" href="#cap-5" data-target="cap-5"><span class="toc-num">5</span><span>5. RECEBER NOTIFICAÇÕES POR E-MAIL</span></a>
+<a class="toc-link toc-level-2" href="#cap-5-1" data-target="cap-5-1"><span class="toc-num">5.1</span><span>5.1. Por que habilitar notificações por e-mail?</span></a>
+<a class="toc-link toc-level-2" href="#cap-5-2" data-target="cap-5-2"><span class="toc-num">5.2</span><span>5.2. Como habilitar/alterar o recebimento por-email?</span></a>
+<a class="toc-link toc-level-1" href="#cap-6" data-target="cap-6"><span class="toc-num">6</span><span>6. ADICIONAR REPRESENTANTE PARA ACESSO AO PROCESSO</span></a>
+<a class="toc-link toc-level-1" href="#cap-7" data-target="cap-7"><span class="toc-num">7</span><span>7. PROTOCOLAR DEFESA</span></a>
+<a class="toc-link toc-level-2" href="#cap-7-1" data-target="cap-7-1"><span class="toc-num">7.1</span><span>7.1. Conferir e atualizar dados do recorrente</span></a>
+<a class="toc-link toc-level-2" href="#cap-7-2" data-target="cap-7-2"><span class="toc-num">7.2</span><span>7.2.  Modalidades de defesa</span></a>
+<a class="toc-link toc-level-2" href="#cap-7-3" data-target="cap-7-3"><span class="toc-num">7.3</span><span>7.3. Apresentar razões de defesa</span></a>
+<a class="toc-link toc-level-2" href="#cap-7-4" data-target="cap-7-4"><span class="toc-num">7.4</span><span>7.4. Contestar área notificada</span></a>
+<a class="toc-link toc-level-2" href="#cap-7-5" data-target="cap-7-5"><span class="toc-num">7.5</span><span>7.5. Informar o real responsável pela edificação/evento</span></a>
+<a class="toc-link toc-level-2" href="#cap-7-6" data-target="cap-7-6"><span class="toc-num">7.6</span><span>7.6. Concluir defesa</span></a>
+<a class="toc-link toc-level-1" href="#cap-8" data-target="cap-8"><span class="toc-num">8</span><span>8. SOLICITAR PRORROGAÇÃO DE PRAZO</span></a>
+<a class="toc-link toc-level-1" href="#cap-9" data-target="cap-9"><span class="toc-num">9</span><span>9. PROTOCOLAR RECURSO DE SANÇÃO</span></a>
+<a class="toc-link toc-level-2" href="#cap-9-1" data-target="cap-9-1"><span class="toc-num">9.1</span><span>9.1. Conferir e atualizar dados do recorrente</span></a>
+<a class="toc-link toc-level-2" href="#cap-9-2" data-target="cap-9-2"><span class="toc-num">9.2</span><span>9.2. Modalidades de recurso</span></a>
+<a class="toc-link toc-level-2" href="#cap-9-3" data-target="cap-9-3"><span class="toc-num">9.3</span><span>9.3. Apresentar razões de defesa (recurso)</span></a>
+<a class="toc-link toc-level-2" href="#cap-9-4" data-target="cap-9-4"><span class="toc-num">9.4</span><span>9.4. Contestar área notificada</span></a>
+<a class="toc-link toc-level-1" href="#cap-10" data-target="cap-10"><span class="toc-num">10</span><span>10. COMUNICAR CORREÇÃO DA IRREGULARIDADE</span></a>
+<a class="toc-link toc-level-2" href="#cap-10-1" data-target="cap-10-1"><span class="toc-num">10.1</span><span>10.1. Responder itens notificados</span></a>
+<a class="toc-link toc-level-2" href="#cap-10-2" data-target="cap-10-2"><span class="toc-num">10.2</span><span>10.2. Informar dados do licenciamento</span></a>
+<a class="toc-link toc-level-1" href="#cap-11" data-target="cap-11"><span class="toc-num">11</span><span>11. SANÇÕES APLICÁVEIS</span></a>
+<a class="toc-link toc-level-2" href="#cap-11-1" data-target="cap-11-1"><span class="toc-num">11.1</span><span>11.1. Recebi uma Advertência escrita, o que fazer?</span></a>
+<a class="toc-link toc-level-2" href="#cap-11-2" data-target="cap-11-2"><span class="toc-num">11.2</span><span>11.2. 1ª Multa</span></a>
+<a class="toc-link toc-level-2" href="#cap-11-3" data-target="cap-11-3"><span class="toc-num">11.3</span><span>11.3. Multa por reincidência (2ª Multa)</span></a>
+<a class="toc-link toc-level-2" href="#cap-11-4" data-target="cap-11-4"><span class="toc-num">11.4</span><span>11.4. Cassação do Licenciamento (AVCB/CLCB)</span></a>
+<a class="toc-link toc-level-2" href="#cap-11-5" data-target="cap-11-5"><span class="toc-num">11.5</span><span>11.5. Embargo</span></a>
+<a class="toc-link toc-level-2" href="#cap-11-6" data-target="cap-11-6"><span class="toc-num">11.6</span><span>11.6. Intedição</span></a>
+<a class="toc-link toc-level-1" href="#cap-12" data-target="cap-12"><span class="toc-num">12</span><span>12. SOLICITAR DESEMBARGO/DESINTERDIÇÃO</span></a>
+<a class="toc-link toc-level-1" href="#cap-13" data-target="cap-13"><span class="toc-num">13</span><span>13. PAGAR MULTA</span></a>
+<a class="toc-link toc-level-1" href="#cap-14" data-target="cap-14"><span class="toc-num">14</span><span>14. FLUXO DO PROCESSO DE FISCALIZAÇÃO DO CBMMG</span></a></nav>
+  </aside>
+
+  <main id="conteudo" class="page-shell">
+    <section id="inicio" class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">CORPO DE BOMBEIROS MILITAR DE MINAS GERAIS</div>
+        <h1>Manual do Autuado</h1>
+        <div class="hero-subtitle">INFOSCIP Fiscalização</div>
+        <p class="hero-meta">1ª Edição — Versão 1.0<br>Junho de 2025</p>
+        <p class="hero-author">Elaborado por: Marcus Vinícius da Cruz Maia, 1º Tenente BM</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#cap-1">Começar leitura</a>
+          <button id="openTocBtn" class="btn secondary" type="button">Abrir índice</button>
+        </div>
+      </div>
+      <figure class="cover-card">
+        <img src="img/branding/capa-manual.webp" alt="Capa original do Manual do Autuado — INFOSCIP Fiscalização">
+      </figure>
+    </section>
+
+    <section class="edition-card" aria-label="Informações desta edição">
+      <div class="edition-copy">
+        <div class="eyebrow">SOBRE ESTA EDIÇÃO</div>
+        <h2>Manual do Sistema de Informações do Serviço de Segurança Contra Incêndio e Pânico | INFOSCIP</h2>
+        <p><strong>Manual do Autuado</strong> — 1ª Edição — Versão 1.0 — Junho de 2025.</p>
+        <p><strong>Elaborado por:</strong> Marcus Vinícius da Cruz Maia, 1º Tenente BM.</p>
+        <p><strong>Diretoria de Atividades Técnicas</strong><br>Divisão de Gestão do SSCIP — Adjuntoria de Sistemas.</p>
+        <p class="edition-note">As imagens contidas neste manual foram extraídas do ambiente de treinamento do INFOSCIP e o conteúdo é meramente ilustrativo.</p>
+      </div>
+      <button class="image-zoom edition-preview" type="button" aria-label="Ampliar página de identificação da edição">
+        <img src="img/branding/pagina-titulo.webp" alt="Página de identificação do Manual do Autuado — INFOSCIP Fiscalização">
+      </button>
+    </section>
+
+    <section class="utility-panel" aria-label="Ferramentas do manual">
+      <div class="search-wrap">
+        <label for="searchInput">Pesquisar no manual</label>
+        <div class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" autocomplete="off" placeholder="Ex.: advertência, recurso, multa, gov.br...">
+          <button id="clearSearchBtn" type="button" aria-label="Limpar busca" title="Limpar">×</button>
+        </div>
+        <div id="searchControls" class="search-controls" hidden>
+          <span id="searchStatus" aria-live="polite"></span>
+          <button id="prevMatchBtn" type="button">Anterior</button>
+          <button id="nextMatchBtn" type="button">Próximo</button>
+        </div>
+      </div>
+      <div class="quick-area">
+        <span class="quick-title">Acesso rápido</span>
+        <div class="quick-links"><a class="quick-link" href="https://fiscalizacaobombeiros.mg.gov.br" target="_blank" rel="noopener">Acessar o INFOSCIP</a><a class="quick-link" href="#cap-7" >Protocolar Defesa</a><a class="quick-link" href="#cap-8" >Prorrogação de Prazo</a><a class="quick-link" href="#cap-10" >Comunicar Correção</a><a class="quick-link" href="#cap-9" >Recurso de Sanção</a><a class="quick-link" href="#cap-13" >Pagar Multa</a></div>
+      </div>
+    </section>
+
+    <article id="manualContent" class="manual-content">
+      <div class="source-page-marker" aria-label="Página 5 do manual original">Página 5</div>
+<section class="chapter" data-chapter="1">
+<h2 id="cap-1" class="manual-heading level-2">1. INTRODUÇÃO<a class="heading-anchor" href="#cap-1" aria-label="Link para esta seção">#</a></h2>
+<p class="">Este manual foi elaborado para orientar você, cidadão que foi autuado pelo Corpo de Bombeiros Militar de Minas Gerais (CBMMG), a respeito dos procedimentos que deverá adotar no sistema INFOSCIP Fiscalização. O objetivo é facilitar seu entendimento sobre como acompanhar e gerenciar seu processo fiscalizatório, garantindo o exercício pleno do seu direito de defesa e a possibilidade de regularização da sua edificação ou atividade.</p>
+<p class="">Ao ser autuado, é essencial que você realize a correção da(s) irregularidade(s) apontadas para regularizar a situação de sua edificação ou empresa e, assim, encerrar o processo administrativo junto ao CBMMG, evitando sanções futuras.</p>
+<p class="">Neste manual, você encontrará orientações claras e simples para:</p>
+<ul class="manual-list">
+<li>Receber o Auto de Infração emitido pelo CBMMG.</li>
+<li>Acessar seu processo no sistema INFOSCIP.</li>
+<li>Protocolar sua defesa dentro do prazo legal.</li>
+<li>Solicitar prorrogação de prazos para regularização.</li>
+<li>Apresentar recursos contra sanções aplicadas.</li>
+<li>Informar a correção de irregularidades.</li>
+<li>Emitir documentos de arrecadação (DAE) para pagamento de multas.</li>
+<li>Solicitar e consultar parcelamento de multa.</li>
+<li>Manter seus dados cadastrais atualizados.</li>
+<li>Receber notificações e acompanhar todas as etapas do processo.</li>
+</ul>
+<p class="">Com essas orientações, esperamos garantir que você consiga utilizar o sistema de forma prática e segura, assegurando seus direitos e cumprindo suas obrigações perante a legislação de segurança contra incêndio e pânico.</p>
+<p class="callout emphasis">Este manual será periodicamente atualizado para refletir eventuais alterações e aprimoramentos do sistema INFOSCIP Fiscalização.</p>
+<div class="source-page-marker" aria-label="Página 6 do manual original">Página 6</div>
+</section>
+<section class="chapter" data-chapter="2">
+<h2 id="cap-2" class="manual-heading level-2">2. FUI AUTUADO, E AGORA?<a class="heading-anchor" href="#cap-2" aria-label="Link para esta seção">#</a></h2>
+<p class="">Após a realização da vistoria do CBMMG, caso sejam identificadas irregularidades, será lavrado um auto de infração (Autuação) referente à sua edificação ou ao seu evento. Essa autuação será formalmente comunicada ao autuado por meio de documento encaminhado em Aviso de Recebimento (AR) pelos Correios, enviado ao endereço da edificação.</p>
+<p class="callout emphasis">Este capítulo tem o objetivo de garantir que você compreenda que a responsabilidade de acompanhar o processo é sua a partir do momento da autuação. Manter o endereço atualizado e ficar atento ao recebimento das notificações ajuda a evitar prejuízos e a perda de prazos importantes.</p>
+<h3 id="cap-2-1" class="manual-heading level-3">2.1. Formas de recebimento da autuação<a class="heading-anchor" href="#cap-2-1" aria-label="Link para esta seção">#</a></h3>
+<p class="">A autuação inicial será sempre encaminhada por Aviso de Recebimento (AR), via Correios, enviado ao endereço constante no processo. Serão realizadas até três tentativas de entrega no local indicado. Caso o responsável não seja localizado ou se recuse a receber a correspondência, a notificação será então publicada no Diário Oficial do Estado de Minas Gerais, garantindo a ciência do autuado pela via oficial. O envio eletrônico de comunicações posteriores, como notificações de prorrogação de prazo ou sanções, poderá ocorrer por e-mail, desde que o autuado tenha previamente consentido no sistema.</p>
+<p class="">O prazo para apresentação de defesa (10 dias) começará a contar a partir da confirmação do recebimento do AR ou, caso a publicação ocorra no Diário Oficial, cinco dias após essa publicação. É fundamental que o autuado acompanhe a chegada do AR, pois nele constam informações importantes, como prazos e código de acesso ao sistema INFOSCIP Fiscalização.</p>
+<p class="">Assim como a autuação, as demais comunicações oficiais do processo (como decisões sobre recursos, aplicação de sanções ou respostas a petições) também serão</p>
+<div class="source-page-marker" aria-label="Página 7 do manual original">Página 7</div>
+<p class="">encaminhadas via AR ou publicadas no Diário Oficial, garantindo a formalidade legal. No entanto, o autuado tem a opção de habilitar o recebimento complementar dessas notificações por e-mail, o que agiliza a comunicação e o acompanhamento do processo. Para mais informações, consulte o <a class="internal-ref" href="#cap-5">Capítulo 5</a> – Receber notificações por e-mail.</p>
+<h3 id="cap-2-2" class="manual-heading level-3">2.2. Próximos passos após a vistoria e recebimento da Autuação<a class="heading-anchor" href="#cap-2-2" aria-label="Link para esta seção">#</a></h3>
+<p class="">Leia atentamente o auto de infração recebido, verificando as irregularidades apontadas. Utilize o código de acesso constante no documento para entrar no sistema INFOSCIP Fiscalização e consultar o processo.</p>
+<figure class="manual-figure" data-page="7"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 7"><img loading="lazy" src="img/telas/pagina-07-15.webp" alt="Imagem do manual INFOSCIP — página 7"></button><figcaption>Imagem do manual original — página 7. Clique para ampliar.</figcaption></figure>
+<p class="">Dentro do sistema, você poderá visualizar todas as etapas do processo, checar prazos, protocolar defesas, solicitar prorrogações, apresentar recursos ou informar a correção das irregularidades.</p>
+<div class="source-page-marker" aria-label="Página 8 do manual original">Página 8</div>
+<p class="">Caso não haja manifestação dentro do prazo legal, o processo seguirá automaticamente para as próximas etapas, o que poderá resultar em sanções adicionais, como multas e cassação do AVCB/CLCB.</p>
+<p class="">No caso de autuação envolvendo um CNPJ, os integrantes do quadro societário terão acesso imediato ao INFOSCIP Fiscalização, por meio do login gov.br, podendo nomear outros representantes para atuar no processo. Apesar do acesso imediato ao sistema, a contagem dos prazos legais — como defesa, recurso ou prorrogação — somente será iniciada após a confirmação do recebimento da autuação.</p>
+</section>
+<section class="chapter" data-chapter="3">
+<h2 id="cap-3" class="manual-heading level-2">3. ACESSO AO SISTEMA<a class="heading-anchor" href="#cap-3" aria-label="Link para esta seção">#</a></h2>
+<p class="">Após receber o auto de infração, o cidadão autuado poderá acessar o sistema INFOSCIP Fiscalização, disponível no endereço eletrônico abaixo para acompanhar seu processo e adotar as providências necessárias. <a href="https://fiscalizacaobombeiros.mg.gov.br" target="_blank" rel="noopener">fiscalizacaobombeiros.mg.gov.br</a></p>
+<p class="">No primeiro acesso, o autuado, caso já não conste no quadro societário do CNPJ ou não seja a pessoa física autuada, deverá utilizar o código de acesso informado no auto de infração recebido, como por exemplo: 8228-193v-2025-d07b. Esse código garante a segurança do acesso e vincula o processo ao interessado corretamente.</p>
+<h3 id="cap-3-1" class="manual-heading level-3">3.1. Login no Infoscip<a class="heading-anchor" href="#cap-3-1" aria-label="Link para esta seção">#</a></h3>
+<p class="">Na tela inicial de login, o cidadão autuado deverá utilizar a opção Entrar com gov.br, clicando no botão indicado, para acessar o INFOSCIP Fiscalização.</p>
+<p class="">Essa forma de acesso garante a autenticação segura por meio do portal federal gov.br, vinculando automaticamente o CPF do usuário ao seu processo no sistema.</p>
+<p class="">Não é possível utilizar login e senha do sistema corporativo nem certificado digital para o autuado, sendo permitido exclusivamente o acesso via gov.br.</p>
+<div class="source-page-marker" aria-label="Página 9 do manual original">Página 9</div>
+<figure class="manual-figure" data-page="9"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 9"><img loading="lazy" src="img/telas/pagina-09-22.webp" alt="Imagem do manual INFOSCIP — página 9"></button><figcaption>Imagem do manual original — página 9. Clique para ampliar.</figcaption></figure>
+</section>
+<section class="chapter" data-chapter="4">
+<h2 id="cap-4" class="manual-heading level-2">4. ACESSAR MEUS PROCESSOS<a class="heading-anchor" href="#cap-4" aria-label="Link para esta seção">#</a></h2>
+<p class="">Após realizar o login com sua conta gov.br, você será direcionado à tela inicial do sistema INFOSCIP Fiscalização.</p>
+<figure class="manual-figure" data-page="9"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 9"><img loading="lazy" src="img/telas/pagina-09-24.webp" alt="Imagem do manual INFOSCIP — página 9"></button><figcaption>Imagem do manual original — página 9. Clique para ampliar.</figcaption></figure>
+<p class="">Para visualizar os processos de fiscalização vinculados ao seu CPF ou CNPJ, clique no menu lateral esquerdo na opção “Meus Processos”.</p>
+<div class="source-page-marker" aria-label="Página 10 do manual original">Página 10</div>
+<p class="">Essa opção abrirá uma página onde serão exibidos cartões resumidos com os dados de cada processo em que você figura como autuado. A partir desses cartões, será possível acompanhar a situação atual de cada processo, visualizar prazos e tomar as ações necessárias, como defesa, prorrogação de prazo, recurso ou comunicação de correção das irregularidades.</p>
+<figure class="manual-figure" data-page="10"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 10"><img loading="lazy" src="img/telas/pagina-10-28.webp" alt="Imagem do manual INFOSCIP — página 10"></button><figcaption>Imagem do manual original — página 10. Clique para ampliar.</figcaption></figure>
+<p class="">Caso seu processo ainda não esteja visível na lista, você poderá vinculá-lo manualmente utilizando o código de acesso recebido no auto de infração.</p>
+<h3 id="cap-4-1" class="manual-heading level-3">4.1. Vincular processo com o código de acesso<a class="heading-anchor" href="#cap-4-1" aria-label="Link para esta seção">#</a></h3>
+<p class="">Se ao acessar o menu Meus Processos o seu processo não aparecer automaticamente na tela, você poderá vinculá-lo manualmente utilizando o código de acesso fornecido no auto de infração. Esse código é único e permite a visualização do processo correspondente no sistema INFOSCIP Fiscalização.</p>
+<p class="callout warning">Importante: esse procedimento é necessário apenas para processos que ainda não estejam automaticamente vinculados ao seu CPF ou CNPJ. Em geral, os processos associados ao seu login gov.br aparecem automaticamente, mas em casos específicos essa vinculação manual é essencial.</p>
+<div class="source-page-marker" aria-label="Página 11 do manual original">Página 11</div>
+<p class="">Para isso, siga os passos abaixo:</p>
+<p class="">Na tela Meus Processos, clique no botão laranja com símbolo de “+”, localizado no canto inferior direito da tela.</p>
+<figure class="manual-figure" data-page="11"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 11"><img loading="lazy" src="img/telas/pagina-11-35.webp" alt="Imagem do manual INFOSCIP — página 11"></button><figcaption>Imagem do manual original — página 11. Clique para ampliar.</figcaption></figure>
+<p class="">Será exibida a janela Consultar processo. No campo indicado, digite o código de acesso exatamente como consta no documento recebido, por exemplo:</p>
+<p class="">8228-193v-2025-d07b</p>
+<p class="">Após preencher o código, clique no botão de lupa (🔍🔍) para localizar o processo.</p>
+<figure class="manual-figure" data-page="11"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 11"><img loading="lazy" src="img/telas/pagina-11-37.webp" alt="Imagem do manual INFOSCIP — página 11"></button><figcaption>Imagem do manual original — página 11. Clique para ampliar.</figcaption></figure>
+<p class="">Se o código estiver correto e o processo estiver disponível, o sistema exibirá os dados correspondentes: Número do processo; Nome do estabelecimento; Razão social da empresa; Endereço; Atividade atual (ex.: apresentação de defesa, recurso, correção etc.).</p>
+<div class="source-page-marker" aria-label="Página 12 do manual original">Página 12</div>
+<p class="">Confirme clicando em OK para vincular o processo à sua conta. A partir desse momento, ele ficará visível na sua lista de “Meus Processos”.</p>
+<figure class="manual-figure" data-page="12"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 12"><img loading="lazy" src="img/telas/pagina-12-42.webp" alt="Imagem do manual INFOSCIP — página 12"></button><figcaption>Imagem do manual original — página 12. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-4-2" class="manual-heading level-3">4.2. Visualizar meu processo<a class="heading-anchor" href="#cap-4-2" aria-label="Link para esta seção">#</a></h3>
+<p class="">Após realizar o login no sistema INFOSCIP Fiscalização e acessar o menu Meus Processos, você encontrará um cartão com as informações do seu processo de fiscalização.</p>
+<p class="">Esse cartão apresenta, de forma resumida, os dados principais do processo, como: seu nome ou razão social; número do processo de fiscalização; endereço da edificação autuada; e a atividade atual do processo (por exemplo: Apresentação de defesa, Advertência escrita aplicada, Processo encerrado).</p>
+<p class="">Quando houver, também será exibido o prazo para realizar a próxima ação, como apresentar defesa ou recurso.</p>
+<p class="">Clique no cartão para acessar os detalhes completos do seu processo.</p>
+<div class="source-page-marker" aria-label="Página 13 do manual original">Página 13</div>
+<figure class="manual-figure" data-page="13"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 13"><img loading="lazy" src="img/telas/pagina-13-46.webp" alt="Imagem do manual INFOSCIP — página 13"></button><figcaption>Imagem do manual original — página 13. Clique para ampliar.</figcaption></figure>
+<p class="">Ao clicar, você será direcionado para uma nova tela com as informações gerais do processo, como:</p>
+<p class="">Processo: exibe a fase atual e os dados principais, como classificação de risco, origem da vistoria, unidade responsável, natureza da vistoria e e-mails cadastrados.</p>
+<p class="">Histórico: mostra todas as ações realizadas e movimentações registradas.</p>
+<p class="">Endereço de correspondência: local para o qual estão sendo enviados os documentos físicos relacionados ao seu processo.</p>
+<p class="">Esse endereço é o mesmo utilizado pelo CBMMG para notificá-lo formalmente sobre a autuação, prazos, decisões e demais comunicações oficiais durante a tramitação do processo.</p>
+<p class="">É muito importante manter esse endereço atualizado, pois ele garante que você receba corretamente todas as notificações postais. Caso haja necessidade, você poderá solicitar a alteração do endereço de correspondência por meio do menu de ações (botão laranja no canto inferior direito da tela do processo).</p>
+<p class="">Além disso, você também pode autorizar o recebimento de notificações por e-mail, o que permite que as comunicações futuras sejam encaminhadas de forma eletrônica. Para isso, verifique se há um e-mail válido informado na aba do processo e se a opção “Receber informações do processo via e-mail” está marcada como SIM. Se desejar, é</p>
+<div class="source-page-marker" aria-label="Página 14 do manual original">Página 14</div>
+<p class="">possível alterar ou incluir um novo e-mail de correspondência por meio do menu de ações.</p>
+<p class="">Manter seu endereço e e-mail atualizados ajuda a evitar perdas de prazos e garante mais agilidade na comunicação com o Corpo de Bombeiros.</p>
+<figure class="manual-figure" data-page="14"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 14"><img loading="lazy" src="img/telas/pagina-14-50.webp" alt="Imagem do manual INFOSCIP — página 14"></button><figcaption>Imagem do manual original — página 14. Clique para ampliar.</figcaption></figure>
+<p class="">Em alguns casos, também estarão disponíveis abas para solicitar prorrogação de prazo, comunicar a correção das irregularidades ou incluir representantes.</p>
+<p class="">No canto inferior direito da tela, você verá um botão laranja com três linhas. Clique nesse botão para abrir o menu de ações disponíveis. As opções apresentadas irão variar conforme a fase do processo, e podem incluir: Protocolar defesa; Comunicar a correção das irregularidades; Solicitar prorrogação de prazo; Alterar endereço ou e-mail de correspondência; Adicionar representante legal.</p>
+<p class="">Caso o botão não mostre determinada ação, significa que ela ainda não está habilitada para a etapa atual do processo ou que o prazo correspondente já foi encerrado.</p>
+<p class="">Todas as informações do seu processo podem ser consultadas e acompanhadas diretamente por essa tela. É importante acessá-la com frequência para garantir que nenhuma etapa ou prazo seja perdido.</p>
+<div class="source-page-marker" aria-label="Página 15 do manual original">Página 15</div>
+<figure class="manual-figure" data-page="15"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 15"><img loading="lazy" src="img/telas/pagina-15-54.webp" alt="Imagem do manual INFOSCIP — página 15"></button><figcaption>Imagem do manual original — página 15. Clique para ampliar.</figcaption></figure>
+</section>
+<section class="chapter" data-chapter="5">
+<h2 id="cap-5" class="manual-heading level-2">5. RECEBER NOTIFICAÇÕES POR E-MAIL<a class="heading-anchor" href="#cap-5" aria-label="Link para esta seção">#</a></h2>
+<p class="">O INFOSCIP Fiscalização permite que o autuado receba notificações e atualizações do seu processo também por e-mail, de forma ágil e segura. Essa funcionalidade é opcional, mas recomendada para quem deseja acompanhar o andamento do processo com maior eficiência e em tempo real.</p>
+<h3 id="cap-5-1" class="manual-heading level-3">5.1. Por que habilitar notificações por e-mail?<a class="heading-anchor" href="#cap-5-1" aria-label="Link para esta seção">#</a></h3>
+<p class="">Primeiramente, o aspecto mais imediato é a rapidez. Enquanto uma carta física pode levar vários dias para chegar ao seu destino, um email pode chegar em questão de segundos. Isso significa que você será informado sobre a situação mais rapidamente, permitindo que tome as medidas necessárias em um tempo mais curto.</p>
+<p class="">Além disso, o email oferece a conveniência de acesso instantâneo. Você pode ler a notificação onde quer que esteja, desde que tenha acesso à internet. Não é necessário esperar pela entrega física ou buscar por uma carta em sua caixa de correio. Isso permite uma resposta mais ágil e eficiente às questões levantadas na notificação.</p>
+<p class="">Outro benefício importante é a redução do impacto ambiental. A comunicação por email elimina a necessidade de papel, envelope e transporte físico. Isso contribui para a preservação das árvores e reduz as emissões de carbono associadas ao transporte de correspondência física.</p>
+<div class="source-page-marker" aria-label="Página 16 do manual original">Página 16</div>
+<p class="">Além disso, receber notificações por email pode ser mais seguro. As cartas físicas podem ser extraviadas, danificadas ou até mesmo perdidas, o que pode resultar em atrasos ou problemas adicionais. Com o email, a entrega é instantânea e segura, garantindo que você receba a informação de forma confiável.</p>
+<p class="">A opção pelo recebimento eletrônico está prevista no Decreto Estadual nº 46.668/2014, art. 7º, §2º, que autoriza o envio de comunicações do Processo Administrativo de Constituição do Crédito Estadual Não Tributário (PACE) por correio eletrônico, desde que o autuado manifeste expressamente essa escolha e mantenha seu endereço de e-mail atualizado.</p>
+<h3 id="cap-5-2" class="manual-heading level-3">5.2. Como habilitar/alterar o recebimento por-email?<a class="heading-anchor" href="#cap-5-2" aria-label="Link para esta seção">#</a></h3>
+<p class="">O autuado pode realizar a habilitação de duas formas:</p>
+<p class="">Ao acessar o processo pela primeira vez: Um pop-up com o título “Habilitar notificações por e-mail” será exibido. Basta preencher os campos com o e-mail principal (obrigatório) e, se desejar, um e-mail secundário. Ambos os endereços receberão as comunicações eletrônicas. Para confirmar, é obrigatório marcar a caixa: “Desejo receber as comunicações relativas ao processo por meio de correio eletrônico” Após isso, clique em Salvar para concluir.</p>
+<figure class="manual-figure" data-page="16"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 16"><img loading="lazy" src="img/telas/pagina-16-58.webp" alt="Imagem do manual INFOSCIP — página 16"></button><figcaption>Imagem do manual original — página 16. Clique para ampliar.</figcaption></figure>
+<p class="">A qualquer momento durante o processo:</p>
+<p class="">Com o processo aberto, clique no botão de ação no canto inferior direito da tela.</p>
+<div class="source-page-marker" aria-label="Página 17 do manual original">Página 17</div>
+<p class="">Selecione a opção “Alterar/Incluir e-mail de correspondência”.</p>
+<figure class="manual-figure" data-page="17"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 17"><img loading="lazy" src="img/telas/pagina-17-62.webp" alt="Imagem do manual INFOSCIP — página 17"></button><figcaption>Imagem do manual original — página 17. Clique para ampliar.</figcaption></figure>
+<p class="">Leia o texto informativo, preencha o e-mail principal e, se desejar, um e-mail secundário.</p>
+<p class="">Marque a caixa de consentimento e clique em Salvar.</p>
+<figure class="manual-figure" data-page="17"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 17"><img loading="lazy" src="img/telas/pagina-17-64.webp" alt="Imagem do manual INFOSCIP — página 17"></button><figcaption>Imagem do manual original — página 17. Clique para ampliar.</figcaption></figure>
+<p class="callout warning">Importante: Manter o e-mail sempre atualizado é fundamental para garantir o recebimento das notificações. Caso haja mudança de endereço eletrônico, é responsabilidade do autuado atualizar as informações no sistema.</p>
+<div class="source-page-marker" aria-label="Página 18 do manual original">Página 18</div>
+<p class="">Após a habilitação, o campo “Receber informações do processo via e-mail” passará a exibir “SIM” na aba “Processo”, indicando que as comunicações por correio eletrônico estão ativas.</p>
+<figure class="manual-figure" data-page="18"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 18"><img loading="lazy" src="img/telas/pagina-18-68.webp" alt="Imagem do manual INFOSCIP — página 18"></button><figcaption>Imagem do manual original — página 18. Clique para ampliar.</figcaption></figure>
+</section>
+<section class="chapter" data-chapter="6">
+<h2 id="cap-6" class="manual-heading level-2">6. ADICIONAR REPRESENTANTE PARA ACESSO AO PROCESSO<a class="heading-anchor" href="#cap-6" aria-label="Link para esta seção">#</a></h2>
+<p class="">A funcionalidade "Adicionar Representante" permite que o autuado autorize outra pessoa a realizar ações no processo em seu nome.</p>
+<p class="">Caso o autuado seja uma pessoa física, ele já estará automaticamente habilitado a acessar e atuar no processo, por meio do login com sua conta pessoal gov.br. Da mesma forma, se o autuado for uma pessoa jurídica, os integrantes do quadro societário do CNPJ também terão acesso ao processo e poderão utilizar todas as funcionalidades do sistema, desde que autentiquem-se pelo gov.br vinculado ao CPF cadastrado na Receita Federal.</p>
+<p class="">No entanto, caso o autuado deseje autorizar um terceiro que não se enquadre nas condições acima — como um responsável técnico, administrador, contador ou outro representante legalmente habilitado — será necessário cadastrá-lo por meio da funcionalidade "Adicionar Representante", garantindo-lhe acesso ao processo e permitindo que ele atue formalmente em nome do autuado.</p>
+<div class="source-page-marker" aria-label="Página 19 do manual original">Página 19</div>
+<p class="">Para iniciar o cadastro de um novo representante, acesse o seu processo de fiscalização, clique no botão de ação localizado no canto inferior direito da tela e selecione a opção “Adicionar Representante”.</p>
+<figure class="manual-figure" data-page="19"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 19"><img loading="lazy" src="img/telas/pagina-19-72.webp" alt="Imagem do manual INFOSCIP — página 19"></button><figcaption>Imagem do manual original — página 19. Clique para ampliar.</figcaption></figure>
+<p class="">Na tela de cadastro, informe o CPF e o nome completo da pessoa a ser designada como representante legal do processo e clique em “Adicionar”. O acesso da pessoa indicada será feito exclusivamente por meio do login gov.br vinculado ao CPF informado.</p>
+<figure class="manual-figure" data-page="19"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 19"><img loading="lazy" src="img/telas/pagina-19-74.webp" alt="Imagem do manual INFOSCIP — página 19"></button><figcaption>Imagem do manual original — página 19. Clique para ampliar.</figcaption></figure>
+<p class="">Após ser adicionado, o representante legal será exibido na aba “REPRESENTANTES” do processo. A partir desse momento, ele estará habilitado a protocolar petições e praticar atos no sistema INFOSCIP Fiscalização em nome do autuado, utilizando seu próprio login gov.br vinculado ao CPF informado no cadastro.</p>
+<div class="source-page-marker" aria-label="Página 20 do manual original">Página 20</div>
+<figure class="manual-figure" data-page="20"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 20"><img loading="lazy" src="img/telas/pagina-20-78.webp" alt="Imagem do manual INFOSCIP — página 20"></button><figcaption>Imagem do manual original — página 20. Clique para ampliar.</figcaption></figure>
+</section>
+<section class="chapter" data-chapter="7">
+<h2 id="cap-7" class="manual-heading level-2">7. PROTOCOLAR DEFESA<a class="heading-anchor" href="#cap-7" aria-label="Link para esta seção">#</a></h2>
+<p class="">Se você foi autuado e deseja se manifestar quanto à infração apontada, poderá protocolar sua defesa diretamente no INFOSCIP Fiscalização. Este capítulo orienta o preenchimento correto e o envio da defesa, com base nas telas do sistema.</p>
+<p class="">Para protocolar sua defesa, clique no botão de ação no canto inferior direito da tela e selecione “Protocolar defesa”.</p>
+<figure class="manual-figure" data-page="20"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 20"><img loading="lazy" src="img/telas/pagina-20-80.webp" alt="Imagem do manual INFOSCIP — página 20"></button><figcaption>Imagem do manual original — página 20. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-7-1" class="manual-heading level-3">7.1. Conferir e atualizar dados do recorrente<a class="heading-anchor" href="#cap-7-1" aria-label="Link para esta seção">#</a></h3>
+<div class="source-page-marker" aria-label="Página 21 do manual original">Página 21</div>
+<p class="">Antes de iniciar o preenchimento da defesa, o sistema solicitará a confirmação ou atualização dos seus dados pessoais. Isso é necessário para identificar corretamente o recorrente e comprovar seu vínculo com o processo.</p>
+<p class="callout warning">Atenção: Caso você não seja a pessoa física autuada nem faça parte do quadro societário da empresa autuada, será necessário anexar documento comprobatório de vínculo com o processo, como uma procuração, ou solicitar ao responsável que o adicione como representante do processo.</p>
+<p class="">Você deve revisar: Nome completo; CPF ou CNPJ; Endereço completo; Documento de identidade; Contato (telefone e e-mail); Data de nascimento.</p>
+<p class="">Após revisar os dados, clique em Salvar para prosseguir.</p>
+<figure class="manual-figure" data-page="21"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 21"><img loading="lazy" src="img/telas/pagina-21-84.webp" alt="Imagem do manual INFOSCIP — página 21"></button><figcaption>Imagem do manual original — página 21. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-7-2" class="manual-heading level-3">7.2.  Modalidades de defesa<a class="heading-anchor" href="#cap-7-2" aria-label="Link para esta seção">#</a></h3>
+<p class="">Ao avançar, você poderá optar por uma ou mais das seguintes formas de defesa:</p>
+<ul class="manual-list">
+<li>Apresentar Razões de Defesa: Utilize esta opção se você discorda da autuação como um todo. Nesta defesa, você deverá explicar os motivos pelos quais considera que não houve irregularidade e justificar o encerramento do processo.</li>
+</ul>
+<div class="source-page-marker" aria-label="Página 22 do manual original">Página 22</div>
+<ul class="manual-list">
+<li>Contestar Área Notificada: Quando você concorda com a autuação, mas entende que a área indicada como irregular foi calculada de forma incorreta, o que pode influenciar no valor da multa ou nas exigências.</li>
+<li>Informar o Real Responsável pela Edificação ou Evento Autuado: Caso você não seja o responsável pela edificação, pode indicar quem realmente é. Será necessário informar os dados do novo responsável (pessoa física ou jurídica) e justificar com base em documentos, como contratos, registros de condomínio ou procurações.</li>
+</ul>
+<p class="">Você pode utilizar uma ou mais modalidades de defesa, de acordo com o caso.</p>
+<h3 id="cap-7-3" class="manual-heading level-3">7.3. Apresentar razões de defesa<a class="heading-anchor" href="#cap-7-3" aria-label="Link para esta seção">#</a></h3>
+<p class="">Nesta etapa, você irá explicar por que discorda da autuação. No campo de texto, apresente argumentos técnicos, legais ou administrativos que justifiquem a regularidade da edificação ou do evento fiscalizado.</p>
+<p class="">Também é possível anexar documentos que sustentem sua justificativa, como AVCB/CLCB.</p>
+<figure class="manual-figure" data-page="22"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 22"><img loading="lazy" src="img/telas/pagina-22-88.webp" alt="Imagem do manual INFOSCIP — página 22"></button><figcaption>Imagem do manual original — página 22. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-7-4" class="manual-heading level-3">7.4. Contestar área notificada<a class="heading-anchor" href="#cap-7-4" aria-label="Link para esta seção">#</a></h3>
+<div class="source-page-marker" aria-label="Página 23 do manual original">Página 23</div>
+<p class="">Caso o problema esteja na área informada como irregular, você poderá justificar por que ela está incorreta. Preencha o campo com a área correta e descreva o motivo do erro.</p>
+<p class="">Anexe documentos como: Planta da edificação; Croquis com medições; Fotos com escala; Relatórios de profissional técnico habilitado, etc.</p>
+<p class="">Esses documentos são essenciais para que o CBMMG possa reavaliar a metragem considerada.</p>
+<figure class="manual-figure" data-page="23"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 23"><img loading="lazy" src="img/telas/pagina-23-92.webp" alt="Imagem do manual INFOSCIP — página 23"></button><figcaption>Imagem do manual original — página 23. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-7-5" class="manual-heading level-3">7.5. Informar o real responsável pela edificação/evento<a class="heading-anchor" href="#cap-7-5" aria-label="Link para esta seção">#</a></h3>
+<p class="">Se você entende que não é o responsável legal pela edificação ou evento autuado, poderá indicar o verdadeiro responsável.</p>
+<p class="">Informe se trata-se de pessoa física ou jurídica e preencha os dados obrigatórios do novo responsável: CNPJ ou CPF, razão social ou nome completo e justificativa.</p>
+<p class="">Esse tipo de defesa requer documentação comprobatória, como:</p>
+<p class="">Procuração, Contrato social, Registro de condomínio, Declaração com ciência do novo responsável, etc.</p>
+<p class="">Ao indicar o real responsável, é necessário que se anexe um termo de consentimento assinado pelo novo autuado.</p>
+<div class="source-page-marker" aria-label="Página 24 do manual original">Página 24</div>
+<figure class="manual-figure" data-page="24"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 24"><img loading="lazy" src="img/telas/pagina-24-96.webp" alt="Imagem do manual INFOSCIP — página 24"></button><figcaption>Imagem do manual original — página 24. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-7-6" class="manual-heading level-3">7.6. Concluir defesa<a class="heading-anchor" href="#cap-7-6" aria-label="Link para esta seção">#</a></h3>
+<p class="">Após preencher uma ou mais modalidades de defesa, clique em Ir para Resumo. Nessa etapa, o sistema apresentará uma visualização completa da sua manifestação, incluindo textos e documentos anexados.</p>
+<p class="">Revise com atenção. Se tudo estiver correto, clique em “Concluir”.</p>
+<p class="">Ao concluir, o sistema exibirá uma mensagem confirmando que a defesa foi registrada com sucesso, com o número do protocolo gerado para acompanhamento.</p>
+<p class="">Você poderá acompanhar o andamento da análise acessando novamente o processo.</p>
+<figure class="manual-figure" data-page="24"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 24"><img loading="lazy" src="img/telas/pagina-24-98.webp" alt="Imagem do manual INFOSCIP — página 24"></button><figcaption>Imagem do manual original — página 24. Clique para ampliar.</figcaption></figure>
+<div class="source-page-marker" aria-label="Página 25 do manual original">Página 25</div>
+</section>
+<section class="chapter" data-chapter="8">
+<h2 id="cap-8" class="manual-heading level-2">8. SOLICITAR PRORROGAÇÃO DE PRAZO<a class="heading-anchor" href="#cap-8" aria-label="Link para esta seção">#</a></h2>
+<p class="">Para solicitar a prorrogação de prazo, acesse seu processo normalmente e clique no botão de ações localizado no canto inferior direito da tela. Em seguida, selecione a opção “Solicitar prorrogação de prazo”. Essa funcionalidade permite ao autuado solicitar um tempo adicional para se adequar às exigências estabelecidas no processo de fiscalização.</p>
+<figure class="manual-figure" data-page="25"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 25"><img loading="lazy" src="img/telas/pagina-25-102.webp" alt="Imagem do manual INFOSCIP — página 25"></button><figcaption>Imagem do manual original — página 25. Clique para ampliar.</figcaption></figure>
+<p class="">A solicitação de prorrogação de prazo somente é permitida a partir da emissão da sanção de advertência escrita. Isso ocorre porque, antes dessa fase, não há contagem de prazo para progressão de sanção. A prorrogação se refere justamente à possibilidade de ampliar o tempo disponível para regularização da edificação antes que a sanção seja agravada, conforme os seguintes marcos legais:</p>
+<p class="">60 dias entre a advertência escrita e a primeira multa;</p>
+<p class="">30 dias entre a advertência escrita e a multa por reincidência;</p>
+<p class="">30 dias entre a advertência escrita e a cassação do AVCB/CLCB.</p>
+<p class="">Ao clicar na funcionalidade, será aberta a tela de solicitação. Veja a seguir as instruções para preenchimento de cada campo:</p>
+<div class="source-page-marker" aria-label="Página 26 do manual original">Página 26</div>
+<h4 class="minor-heading">Item Cronograma</h4>
+<p class="">Este campo apresenta uma lista padronizada de atividades relacionadas à regularização da edificação, tais como: Planejamento e levantamento de dados; Contratação de responsável técnico; Elaboração do PSCIP; Protocolo e aprovação do PSCIP junto ao CBMMG; Execução das medidas de segurança; Solicitação de vistoria.</p>
+<p class="">Escolha o item que melhor representa a ação que você realizará durante o período de prorrogação solicitado.</p>
+<h4 class="minor-heading">Prazo (dias)</h4>
+<p class="">Informe quantos dias serão necessários para cumprir o item do cronograma selecionado. Cada item possui um limite máximo individual, o qual será exibido automaticamente ao lado do campo. Esse limite não pode ser ultrapassado.</p>
+<h4 class="minor-heading">Adicionar Item</h4>
+<p class="">Após preencher o item do cronograma e o prazo correspondente, clique no botão “Adicionar Item” para habilitar o campo de inclusão de um novo item. Esse procedimento deve ser repetido para cada etapa que deseja incluir no seu cronograma de execução.</p>
+<p class="">Dessa forma, você poderá montar um cronograma completo, com diversas fases planejadas, respeitando os prazos máximos de cada item e o limite total permitido para a solicitação.</p>
+<p class="">Você poderá editar ou excluir cada item adicionado antes de concluir o envio. Isso permite ajustes conforme o planejamento da sua regularização.</p>
+<h4 class="minor-heading">Observações</h4>
+<p class="">Este campo é de uso livre e permite inserir esclarecimentos adicionais sobre a situação, justificativas específicas ou condições excepcionais que fundamentem o pedido de prorrogação. Use esse espaço para contextualizar melhor sua solicitação.</p>
+<div class="source-page-marker" aria-label="Página 27 do manual original">Página 27</div>
+<h4 class="minor-heading">Anexar Arquivo</h4>
+<p class="">Caso deseje complementar sua solicitação com documentos (ex: cronogramas, orçamentos, parecer técnico), utilize a opção “Anexar arquivo” logo abaixo do campo de observações.</p>
+<h4 class="minor-heading">Resumo dos prazos</h4>
+<p class="">Na parte inferior da tela, o sistema exibirá automaticamente:</p>
+<p class="">O prazo total solicitado, somando todos os itens do cronograma; e o prazo máximo permitido para a solicitação. O total de dias somado não poderá ultrapassar esse limite.</p>
+<h4 class="minor-heading">Finalizar pedido de prorrogação de prazo</h4>
+<p class="">Após revisar todos os dados e garantir que os prazos estão de acordo com a necessidade e dentro dos limites, clique em “Salvar” para enviar a solicitação.</p>
+<p class="">A partir daí, a análise será realizada pela autoridade competente, e o prazo para progressão de sanção permanecerá suspenso até decisão sobre o deferimento ou não da solicitação.</p>
+<figure class="manual-figure" data-page="27"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 27"><img loading="lazy" src="img/telas/pagina-27-109.webp" alt="Imagem do manual INFOSCIP — página 27"></button><figcaption>Imagem do manual original — página 27. Clique para ampliar.</figcaption></figure>
+<div class="source-page-marker" aria-label="Página 28 do manual original">Página 28</div>
+</section>
+<section class="chapter" data-chapter="9">
+<h2 id="cap-9" class="manual-heading level-2">9. PROTOCOLAR RECURSO DE SANÇÃO<a class="heading-anchor" href="#cap-9" aria-label="Link para esta seção">#</a></h2>
+<p class="">Se você recebeu uma sanção administrativa (advertência, multa ou cassação) e deseja contestá-la formalmente, poderá protocolar seu recurso diretamente no sistema INFOSCIP Fiscalização. Este capítulo orienta o preenchimento correto e o envio do recurso, com base nas telas do sistema.</p>
+<p class="">Para iniciar o protocolo, acesse o seu processo de fiscalização, clique no botão de ação localizado no canto inferior direito da tela e selecione a opção “Protocolar Recurso”.</p>
+<figure class="manual-figure" data-page="28"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 28"><img loading="lazy" src="img/telas/pagina-28-113.webp" alt="Imagem do manual INFOSCIP — página 28"></button><figcaption>Imagem do manual original — página 28. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-9-1" class="manual-heading level-3">9.1. Conferir e atualizar dados do recorrente<a class="heading-anchor" href="#cap-9-1" aria-label="Link para esta seção">#</a></h3>
+<p class="">Antes de iniciar o preenchimento do recurso, o sistema solicitará a confirmação ou atualização dos seus dados pessoais. Isso é necessário para identificar corretamente o recorrente e comprovar seu vínculo com o processo.</p>
+<p class="callout warning">Atenção: Caso você não seja a pessoa física sancionada nem faça parte do quadro societário da empresa sancionada, será necessário anexar documento comprobatório de vínculo com o processo, como uma procuração, ou solicitar ao responsável que o adicione como representante do processo.</p>
+<div class="source-page-marker" aria-label="Página 29 do manual original">Página 29</div>
+<p class="">Você deve revisar: Nome completo; CPF ou CNPJ; Endereço completo; Documento de identidade; Contato (telefone e e-mail); Data de nascimento</p>
+<p class="">Após revisar os dados, clique em Salvar para prosseguir.</p>
+<figure class="manual-figure" data-page="29"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 29"><img loading="lazy" src="img/telas/pagina-29-117.webp" alt="Imagem do manual INFOSCIP — página 29"></button><figcaption>Imagem do manual original — página 29. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-9-2" class="manual-heading level-3">9.2. Modalidades de recurso<a class="heading-anchor" href="#cap-9-2" aria-label="Link para esta seção">#</a></h3>
+<p class="">Na tela de recurso, o sistema permite que você selecione uma ou mais formas de manifestação, de acordo com o conteúdo da sua contestação. As opções disponíveis são: Apresentar Razões de Defesa: Utilize esta opção caso discorde da autuação em</p>
+<ul class="manual-list">
+<li></li>
+</ul>
+<p class="">sua totalidade. Aqui, você poderá expor seus argumentos demonstrando por que entende que não houve irregularidade, e justificar o pedido de arquivamento do processo. Contestar Área Notificada: essa opção é recomendada quando você reconhece</p>
+<ul class="manual-list">
+<li></li>
+</ul>
+<p class="">a irregularidade, mas entende que houve erro no cálculo da área notificada, o que pode afetar diretamente o valor da multa aplicada ou as medidas exigidas para a regularização.</p>
+<p class="callout warning">Atenção: Nesta fase do processo não é possível indicar novo responsável pela edificação ou evento autuado, o que é possível apenas na fase de Defesa.</p>
+<div class="source-page-marker" aria-label="Página 30 do manual original">Página 30</div>
+<h3 id="cap-9-3" class="manual-heading level-3">9.3. Apresentar razões de defesa (recurso)<a class="heading-anchor" href="#cap-9-3" aria-label="Link para esta seção">#</a></h3>
+<p class="">Nesta etapa, você irá explicar por que discorda da sanção aplicada. No campo de texto, apresente argumentos técnicos, legais ou administrativos que justifiquem a regularidade da edificação ou do evento fiscalizado. Também é possível anexar documentos que sustentem sua justificativa, como AVCB/CLCB.</p>
+<figure class="manual-figure" data-page="30"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 30"><img loading="lazy" src="img/telas/pagina-30-121.webp" alt="Imagem do manual INFOSCIP — página 30"></button><figcaption>Imagem do manual original — página 30. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-9-4" class="manual-heading level-3">9.4. Contestar área notificada<a class="heading-anchor" href="#cap-9-4" aria-label="Link para esta seção">#</a></h3>
+<p class="">Caso o problema esteja na área informada como irregular, você poderá justificar porque ela está incorreta. Preencha o campo com a área correta e descreva o motivo do erro. Anexe documentos como: Planta da edificação; Croquis com medições; Fotos com escala; Relatórios de profissional técnico habilitado, etc. Esses documentos são essenciais para que o CBMMG possa reavaliar a metragem considerada.</p>
+<div class="source-page-marker" aria-label="Página 31 do manual original">Página 31</div>
+<figure class="manual-figure" data-page="31"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 31"><img loading="lazy" src="img/telas/pagina-31-125.webp" alt="Imagem do manual INFOSCIP — página 31"></button><figcaption>Imagem do manual original — página 31. Clique para ampliar.</figcaption></figure>
+<p class="">Após preencher uma ou mais modalidades de recurso, clique em Ir para Resumo. Nessa etapa, o sistema apresentará uma visualização completa da sua manifestação, incluindo textos e documentos anexados.</p>
+<p class="">Revise com atenção. Se tudo estiver correto, clique em “Concluir”.</p>
+<p class="">Ao concluir, o sistema exibirá uma mensagem confirmando que o recurso foi registrado com sucesso, com o número do protocolo gerado para acompanhamento.</p>
+<p class="">Você poderá acompanhar o andamento da análise acessando novamente o processo.</p>
+<figure class="manual-figure" data-page="31"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 31"><img loading="lazy" src="img/telas/pagina-31-127.webp" alt="Imagem do manual INFOSCIP — página 31"></button><figcaption>Imagem do manual original — página 31. Clique para ampliar.</figcaption></figure>
+<div class="source-page-marker" aria-label="Página 32 do manual original">Página 32</div>
+</section>
+<section class="chapter" data-chapter="10">
+<h2 id="cap-10" class="manual-heading level-2">10. COMUNICAR CORREÇÃO DA IRREGULARIDADE<a class="heading-anchor" href="#cap-10" aria-label="Link para esta seção">#</a></h2>
+<p class="">Se você regularizou as irregularidades apontadas no processo de fiscalização, poderá comunicar essa correção diretamente no INFOSCIP Fiscalização. Este capítulo orienta como registrar a correção no sistema de forma adequada, com base nas telas disponíveis.</p>
+<p class="">Para iniciar o protocolo, acesse o seu processo de fiscalização, clique no botão de ação localizado no canto inferior direito da tela e selecione a opção “Comunicar a correção das irregularidades”.</p>
+<figure class="manual-figure" data-page="32"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 32"><img loading="lazy" src="img/telas/pagina-32-131.webp" alt="Imagem do manual INFOSCIP — página 32"></button><figcaption>Imagem do manual original — página 32. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-10-1" class="manual-heading level-3">10.1. Responder itens notificados<a class="heading-anchor" href="#cap-10-1" aria-label="Link para esta seção">#</a></h3>
+<p class="">Na aba “Itens Notificados”, o sistema apresentará a lista das irregularidades identificadas na vistoria.</p>
+<p class="">Você deverá informar, para cada item, as ações que foram realizadas para corrigir a irregularidade e Anexar documentos ou imagens que comprovem a correção.</p>
+<p class="callout emphasis">A resposta textual e o anexo são obrigatórios para cada irregularidade notificada.</p>
+<p class="">Essa etapa é essencial para comprovar a adequação da edificação ou do evento às exigências de segurança contra incêndio e pânico. Quanto mais clara e objetiva for a descrição das ações, maior a compreensão na análise do Corpo de Bombeiros.</p>
+<div class="source-page-marker" aria-label="Página 33 do manual original">Página 33</div>
+<figure class="manual-figure" data-page="33"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 33"><img loading="lazy" src="img/telas/pagina-33-135.webp" alt="Imagem do manual INFOSCIP — página 33"></button><figcaption>Imagem do manual original — página 33. Clique para ampliar.</figcaption></figure>
+<h3 id="cap-10-2" class="manual-heading level-3">10.2. Informar dados do licenciamento<a class="heading-anchor" href="#cap-10-2" aria-label="Link para esta seção">#</a></h3>
+<p class="">Na aba “Dados do Licenciamento”, o autuado poderá informar se obteve licenciamento após a autuação, o que por si só pode comprovar a correção das irregularidades anteriormente apontadas.</p>
+<p class="">São aceitos três tipos de licenciamento: AVCB (Auto de Vistoria do Corpo de Bombeiros)</p>
+<ul class="manual-list">
+<li></li>
+</ul>
+<p class="">CLCB (Certificado de Licenciamento do Corpo de Bombeiros)</p>
+<ul class="manual-list">
+<li></li>
+</ul>
+<p class="">Licenciamento Provisório (válido por até 1 ano)</p>
+<ul class="manual-list">
+<li></li>
+</ul>
+<p class="">Para informar, siga os passos:</p>
+<p class="">Selecione o tipo de licenciamento obtido. Digite o número do projeto ou do AVCB/CLCB. O sistema buscará automaticamente os dados do licenciamento junto ao banco de dados do CBMMG.</p>
+<p class="">Opcionalmente, anexe o arquivo correspondente ao documento de licenciamento (PDF do AVCB, por exemplo).</p>
+<p class="">Caso selecione “Licenciamento Provisório”, será necessário informar a data de validade do documento.</p>
+<p class="">Edificações de nível de risco 3 devem obrigatoriamente apresentar número de processo PSCIP com AVCB válido.</p>
+<p class="">Edificações de nível de risco 2 poderão informar CLCB ou licenciamento provisório.</p>
+<div class="source-page-marker" aria-label="Página 34 do manual original">Página 34</div>
+<p class="">Após preencher todas as informações e anexar os documentos, clique em “Salvar” para concluir a comunicação da correção das irregularidades.</p>
+</section>
+<section class="chapter" data-chapter="11">
+<h2 id="cap-11" class="manual-heading level-2">11. SANÇÕES APLICÁVEIS<a class="heading-anchor" href="#cap-11" aria-label="Link para esta seção">#</a></h2>
+<p class="">Durante o processo de fiscalização, caso o autuado não comprove a correção das irregularidades no prazo estabelecido, o Corpo de Bombeiros Militar de Minas Gerais poderá aplicar sanções administrativas, de forma gradual e progressiva, conforme previsto na legislação vigente.</p>
+<p class="">As sanções buscam garantir a regularização da edificação ou atividade, promovendo a segurança contra incêndio e pânico. A progressão das sanções ocorre automaticamente caso não haja manifestação válida do autuado, respeitando os seguintes prazos:</p>
+<p class="">Advertência Escrita – aplicada se, após a autuação, as irregularidades não forem sanadas no prazo inicial. Após 60 dias, caso a situação permaneça irregular, será aplicada a Multa – primeira sanção pecuniária. Após mais 30 dias: Multa por Reincidência – com valor dobrado. Após outros 30 dias, se a edificação continuar irregular, poderá ocorrer a Cassação do Licenciamento (AVCB/CLCB), caso exista – tornando o licenciamento sem efeito legal.</p>
+<p class="">Cada uma dessas sanções é formalizada por meio de um Termo de Aplicação de Sanção, disponibilizado no sistema INFOSCIP Fiscalização. A partir do recebimento da sanção, o autuado possui o prazo de 10 dias corridos para interpor recurso, caso deseje contestar a sanção.</p>
+<p class="">Além das sanções aplicadas de forma progressiva, também existem as chamadas sanções de aplicação imediata, que podem ser aplicadas independentemente da tramitação do processo administrativo. Essas penalidades têm caráter urgente e preventivo, e são utilizadas para garantir a segurança, a ordem e a legalidade em situações críticas. No âmbito da fiscalização do CBMMG, consideram-se sanções de aplicação imediata o embargo (paralisação de obra, montagem ou preparação de evento temporário) e a interdição (paralisação de atividade, uso de edificação, espaço coletivo, equipamento ou sistema).</p>
+<div class="source-page-marker" aria-label="Página 35 do manual original">Página 35</div>
+<p class="">Nos subcapítulos a seguir, você encontrará a descrição de cada tipo de sanção:</p>
+<h3 id="cap-11-1" class="manual-heading level-3">11.1. Recebi uma Advertência escrita, o que fazer?<a class="heading-anchor" href="#cap-11-1" aria-label="Link para esta seção">#</a></h3>
+<p class="">A advertência escrita é a sanção inicial aplicada quando, após a vistoria e notificação, o autuado não corrige as irregularidades no prazo estabelecido. Essa medida tem caráter educativo e preventivo, e serve como alerta formal para que a situação seja regularizada imediatamente.</p>
+<p class="">O documento gerado é o Termo de Aplicação Sanção de Advertência Escrita, que traz: Identificação do autuado; Descrição da infração persistente; Fundamentação legal; Prazo para regularização antes da próxima sanção.</p>
+<figure class="manual-figure" data-page="35"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 35"><img loading="lazy" src="img/telas/pagina-35-142.webp" alt="Imagem do manual INFOSCIP — página 35"></button><figcaption>Imagem do manual original — página 35. Clique para ampliar.</figcaption></figure>
+<p class="">Caso você tenha recebido uma advertência escrita e discorde da sua aplicação, acesse o <a class="internal-ref" href="#cap-9">Capítulo 9</a> – Protocolar Recurso de Sanção para apresentar seus argumentos.</p>
+<p class="">Se você corrigiu as irregularidades apontadas, acesse o <a class="internal-ref" href="#cap-10">Capítulo 10</a> – Comunicar Correção da Irregularidade para informar e comprovar a regularização.</p>
+<div class="source-page-marker" aria-label="Página 36 do manual original">Página 36</div>
+<p class="">Se você precisa de mais tempo para corrigir as irregularidades, acesse o <a class="internal-ref" href="#cap-8">Capítulo 8</a> – Solicitar Prorrogação de Prazo e veja como protocolar seu pedido com o cronograma de ações necessário.</p>
+<p class="">Caso você não regularize a situação dentro do prazo (ou do prazo prorrogado, se concedido), será emitido automaticamente o Termo de Aplicação de Sanção de Multa, como etapa seguinte do processo sancionador.</p>
+<h3 id="cap-11-2" class="manual-heading level-3">11.2. 1ª Multa<a class="heading-anchor" href="#cap-11-2" aria-label="Link para esta seção">#</a></h3>
+<p class="">A multa é aplicada quando, após o prazo da advertência escrita, as irregularidades continuam sem correção e não há comprovação de regularização.</p>
+<p class="">O Termo de Aplicação de Sanção de Multa especifica: A infração cometida; A base legal utilizada; O valor da sanção aplicada (calculado conforme a área e natureza da edificação); As formas e prazos para pagamento ou apresentação de recurso.</p>
+<div class="source-page-marker" aria-label="Página 37 do manual original">Página 37</div>
+<figure class="manual-figure" data-page="37"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 37"><img loading="lazy" src="img/telas/pagina-37-150.webp" alt="Imagem do manual INFOSCIP — página 37"></button><figcaption>Imagem do manual original — página 37. Clique para ampliar.</figcaption></figure>
+<p class="">Se desejar contestar a sanção, consulte o <a class="internal-ref" href="#cap-9">Capítulo 9</a> – Protocolar Recurso de Sanção.</p>
+<p class="">Se você já regularizou sua edificação, consulte o <a class="internal-ref" href="#cap-10">Capítulo 10</a> – Comunicar Correção da Irregularidade.</p>
+<p class="">Se você precisa de mais tempo para corrigir as irregularidades, acesse o <a class="internal-ref" href="#cap-8">Capítulo 8</a> – Solicitar Prorrogação de Prazo e veja como protocolar seu pedido com o cronograma de ações necessário.</p>
+<p class="callout warning">Atenção: o não pagamento da multa pode gerar uma Cobrança Administrativa, com posterior inclusão do CPF ou CNPJ do autuado na Dívida Ativa do Estado, conforme os trâmites previstos na legislação estadual.</p>
+<div class="source-page-marker" aria-label="Página 38 do manual original">Página 38</div>
+<p class="">Se você não regularizar a situação dentro do prazo (ou do prazo prorrogado, se concedido), será emitido automaticamente o Termo de Aplicação de Multa por reincidência (2ª Multa, em dobro), como etapa seguinte do processo sancionador.</p>
+<h3 id="cap-11-3" class="manual-heading level-3">11.3. Multa por reincidência (2ª Multa)<a class="heading-anchor" href="#cap-11-3" aria-label="Link para esta seção">#</a></h3>
+<p class="">A multa por reincidência é aplicada quando, 30 dias após a aplicação da primeira multa, ainda não houver comprovação de correção das irregularidades.</p>
+<p class="">Ela tem valor majorado em dobro em relação à multa inicial e caracteriza desobediência reiterada à legislação de segurança contra incêndio e pânico.</p>
+<p class="">O Termo de Aplicação de Sanção de Multa por Reincidência apresenta: A descrição da persistência da infração; A caracterização formal da reincidência; O valor da sanção; Prazos para pagamento ou contestação.</p>
+<div class="source-page-marker" aria-label="Página 39 do manual original">Página 39</div>
+<figure class="manual-figure" data-page="39"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 39"><img loading="lazy" src="img/telas/pagina-39-157.webp" alt="Imagem do manual INFOSCIP — página 39"></button><figcaption>Imagem do manual original — página 39. Clique para ampliar.</figcaption></figure>
+<p class="">Se desejar contestar a sanção, consulte o <a class="internal-ref" href="#cap-9">Capítulo 9</a> – Protocolar Recurso de Sanção.</p>
+<p class="">Se você já regularizou sua edificação, consulte o <a class="internal-ref" href="#cap-10">Capítulo 10</a> – Comunicar Correção da Irregularidade.</p>
+<p class="">Se você precisa de mais tempo para corrigir as irregularidades, acesse o <a class="internal-ref" href="#cap-8">Capítulo 8</a> – Solicitar Prorrogação de Prazo e veja como protocolar seu pedido com o cronograma de ações necessário.</p>
+<p class="callout warning">Atenção: a segunda multa não substitui nem anula a primeira. Ambas permanecem válidas e devem ser pagas integralmente, salvo se forem canceladas por decisão administrativa decorrente de recurso.</p>
+<div class="source-page-marker" aria-label="Página 40 do manual original">Página 40</div>
+<p class="callout warning">Importante: o não pagamento de qualquer uma das multas poderá resultar em Cobrança Administrativa, com encaminhamento do CPF ou CNPJ do autuado para inscrição na Dívida Ativa do Estado.</p>
+<p class="">Se você não regularizar a situação dentro do prazo (ou do prazo prorrogado, se concedido), e tiver um licenciamento válido, será cassado seu documento (AVCB/CLCB).</p>
+<h3 id="cap-11-4" class="manual-heading level-3">11.4. Cassação do Licenciamento (AVCB/CLCB)<a class="heading-anchor" href="#cap-11-4" aria-label="Link para esta seção">#</a></h3>
+<p class="">A cassação do licenciamento é a sanção máxima aplicada em um processo de fiscalização. Ela ocorre quando, 30 dias após a multa por reincidência, a edificação continua irregular e não houve manifestação válida do autuado.</p>
+<p class="">Essa sanção implica na cassação do AVCB/CLCB vigente, tornando o licenciamento sem efeito legal. A edificação passa a estar formalmente irregular, ficando sujeita a interdição e demais sanções previstas em lei.</p>
+<p class="">O documento gerado é o Termo de Cassação de Licenciamento, que indicará:</p>
+<p class="">O número do AVCB/CLCB cassado; A fundamentação legal da sanção; A data de cassação e seus efeitos; O prazo para recurso.</p>
+<p class="">Se desejar contestar a sanção, consulte o <a class="internal-ref" href="#cap-9">Capítulo 9</a> – Protocolar Recurso de Sanção.</p>
+<p class="">Se você já regularizou sua edificação, consulte o <a class="internal-ref" href="#cap-10">Capítulo 10</a> – Comunicar Correção da Irregularidade.</p>
+<p class="callout warning">Atenção: mesmo que a correção das irregularidades seja feita após a cassação, isso não reverte a sanção aplicada. Será necessário iniciar um novo processo de licenciamento, conforme as normas vigentes.</p>
+<h3 id="cap-11-5" class="manual-heading level-3">11.5. Embargo<a class="heading-anchor" href="#cap-11-5" aria-label="Link para esta seção">#</a></h3>
+<div class="source-page-marker" aria-label="Página 41 do manual original">Página 41</div>
+<p class="">O embargo é uma sanção administrativa de aplicação imediata, utilizada para paralisar parcial ou totalmente a execução de uma obra, montagem de estrutura ou preparação de evento temporário, sempre que forem constatadas condições que representem risco iminente à segurança ou descumprimento da legislação de segurança contra incêndio e pânico, como, por exemplo, não possuir PSCIP aprovado.</p>
+<p class="">Diferentemente das sanções progressivas (como advertência e multa), o embargo não depende de processo administrativo prévio. Sua aplicação ocorre no momento da vistoria, e visa interromper imediatamente uma atividade que esteja colocando em risco vidas humanas ou o patrimônio coletivo.</p>
+<p class="">O embargo será formalizado por meio de um Auto de Embargo, entregue pelo vistoriador no momento da vistoria.</p>
+<p class="">Caso o autuado deseje recorrer/solicitar desembargo, consulte o <a class="internal-ref" href="#cap-12">capitulo 12</a> – Solicitar Desembargo/Desinterdição.</p>
+<h3 id="cap-11-6" class="manual-heading level-3">11.6. Intedição<a class="heading-anchor" href="#cap-11-6" aria-label="Link para esta seção">#</a></h3>
+<p class="">A interdição também é uma sanção administrativa de aplicação imediata, utilizada para determinar a paralisação parcial ou total de uma atividade ou uso de edificação, setor de serviço, espaço coletivo, sistema, equipamento ou evento temporário.</p>
+<p class="">Ela é aplicada quando for verificado que a permanência da atividade representa risco direto à integridade física das pessoas, ou quando a edificação ou instalação opera em desconformidade com as normas de segurança contra incêndio e pânico.</p>
+<p class="">A interdição é formalizada por meio de um Auto de Interdição, entregue pelo vistoriador no momento da vistoria.</p>
+<p class="">Caso o autuado deseje recorrer/solicitar desembargo, consulte o <a class="internal-ref" href="#cap-12">capitulo 12</a> – Solicitar Desembargo/Desinterdição.</p>
+</section>
+<section class="chapter" data-chapter="12">
+<h2 id="cap-12" class="manual-heading level-2">12. SOLICITAR DESEMBARGO/DESINTERDIÇÃO<a class="heading-anchor" href="#cap-12" aria-label="Link para esta seção">#</a></h2>
+<p class="">As sanções de embargo e interdição são medidas de aplicação imediata adotadas pelo CBMMG em situações nas quais há risco iminente à segurança ou descumprimento grave da legislação de segurança contra incêndio e pânico. No entanto, o responsável pela edificação ou evento tem o direito de apresentar um recurso ou solicitação de</p>
+<div class="source-page-marker" aria-label="Página 42 do manual original">Página 42</div>
+<p class="">retirada da sanção, sempre que entender que a medida foi indevida ou já tenha sido regularizada a situação que a motivou.</p>
+<p class="">Para iniciar a solicitação, o autuado deverá: Acessar o processo correspondente no sistema INFOSCIP Fiscalização. Clicar no botão de ação (canto inferior direito da tela) e “Solicitar Desinterdição / Recurso” “Solicitar selecionar a opção ou Desembargo/Recurso”, conforme o caso.</p>
+<figure class="manual-figure" data-page="42"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 42"><img loading="lazy" src="img/telas/pagina-42-168.webp" alt="Imagem do manual INFOSCIP — página 42"></button><figcaption>Imagem do manual original — página 42. Clique para ampliar.</figcaption></figure>
+<p class="">Na tela seguinte, o sistema solicitará o preenchimento dos seguintes dados:</p>
+<p class="">Descrição do pedido: Explique os motivos pelos quais você entende que a interdição ou embargo deve ser retirada.</p>
+<p class="">Comprovação da correção: Anexe documentos que comprovem a correção da irregularidade, como fotos, relatórios técnicos ou laudos.</p>
+<p class="">Para casos de embargo: Será necessário anexar o número do processo de segurança contra incêndio e pânico (PSCIP) já aprovado, como comprovação da regularização.</p>
+<div class="source-page-marker" aria-label="Página 43 do manual original">Página 43</div>
+<figure class="manual-figure" data-page="43"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 43"><img loading="lazy" src="img/telas/pagina-43-172.webp" alt="Imagem do manual INFOSCIP — página 43"></button><figcaption>Imagem do manual original — página 43. Clique para ampliar.</figcaption></figure>
+<p class="">Após o envio, a solicitação será analisada pela unidade do CBMMG responsável pela fiscalização. A decisão poderá resultar na:</p>
+<p class="">Retirada da interdição ou do embargo, com liberação da atividade;</p>
+<p class="">Manutenção da medida, caso o risco persista ou a documentação seja insuficiente.</p>
+</section>
+<section class="chapter" data-chapter="13">
+<h2 id="cap-13" class="manual-heading level-2">13. PAGAR MULTA<a class="heading-anchor" href="#cap-13" aria-label="Link para esta seção">#</a></h2>
+<p class="">Após a aplicação de uma sanção pecuniária (Multa), o autuado será notificado via Aviso de Recebimento (AR) ou, se tiver habilitado, por e-mail. A partir da notificação, inicia-se o prazo para pagamento da multa ou para apresentação de recurso, conforme previsto na legislação vigente.</p>
+<p class="">Para acessar os dados da multa diretamente pelo sistema:</p>
+<p class="">Acesse o processo de fiscalização em que foi aplicada a sanção, navegue até a aba 1ª Multa ou 2ª Multa, conforme o caso.</p>
+<div class="source-page-marker" aria-label="Página 44 do manual original">Página 44</div>
+<figure class="manual-figure" data-page="44"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 44"><img loading="lazy" src="img/telas/pagina-44-176.webp" alt="Imagem do manual INFOSCIP — página 44"></button><figcaption>Imagem do manual original — página 44. Clique para ampliar.</figcaption></figure>
+<p class="">Clique na multa exibida para visualizar as Informações Adicionais, incluindo: Código da multa; Data da aplicação; Quantidade de UFEMGs (<a href="https://www.fazenda.mg.gov.br/empresas/legislacao_tributaria/resolucoes/ufemg" target="_blank" rel="noopener">www.fazenda.mg.gov.br/empresas/legislacao_tributaria/resolucoes/ufemg</a>); Valor total calculado.</p>
+<p class="">Documento com o Termo de Aplicação da Multa (disponível para download); Situação da multa (PAGA ou EM ABERTO); DAE gerado.</p>
+<p class="">Nessa tela, será possível emitir novamente o DAE para pagamento do valor total da multa e Solicitar parcelamento, caso não seja possível efetuar o pagamento integral de forma imediata.</p>
+<figure class="manual-figure" data-page="44"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 44"><img loading="lazy" src="img/telas/pagina-44-178.webp" alt="Imagem do manual INFOSCIP — página 44"></button><figcaption>Imagem do manual original — página 44. Clique para ampliar.</figcaption></figure>
+<div class="source-page-marker" aria-label="Página 45 do manual original">Página 45</div>
+<p class="callout warning">Atenção: O sistema INFOSCIP realiza a atualização automática da situação do DAE, por meio de integração com a Secretaria de Estado de Fazenda. Por isso, o sancionado deve emitir e pagar exclusivamente o DAE gerado pelo próprio sistema. O pagamento de boletos obtidos por outros meios, não permite o reconhecimento automático da quitação, mantendo a multa como em aberto no sistema.</p>
+</section>
+<section class="chapter" data-chapter="14">
+<h2 id="cap-14" class="manual-heading level-2">14. FLUXO DO PROCESSO DE FISCALIZAÇÃO DO CBMMG<a class="heading-anchor" href="#cap-14" aria-label="Link para esta seção">#</a></h2>
+<p class="">O fluxograma a seguir apresenta as etapas principais do processo de fiscalização no INFOSCIP Fiscalização, conduzido pelo Corpo de Bombeiros Militar de Minas Gerais. Esse fluxo normatiza as ações administrativas desde a autuação até a aplicação escalonada das sanções, garantindo prazos para manifestação do autuado e mecanismos para a regularização.</p>
+<p class="">O processo tem início com a vistoria de fiscalização, que pode resultar na autuação do responsável pela edificação ou evento. Após a autuação, o autuado possui o prazo de 10 dias corridos para apresentar defesa, caso deseje contestar as irregularidades apontadas.</p>
+<p class="">Se a situação não for regularizada, o sistema aplica automaticamente as sanções previstas, de forma escalonada e conforme os seguintes prazos:</p>
+<p class="">Advertência Escrita – sanção inicial, com prazo de 60 dias para correção.</p>
+<p class="">1ª Multa– aplicada após o vencimento do prazo da advertência, com novo prazo de 30 dias.</p>
+<p class="">2ª Multa – aplicada após mais 30 dias, em caso de não correção.</p>
+<p class="">Cassação do Licenciamento (AVCB/CLCB) – etapa final do processo sancionador.</p>
+<p class="">O autuado poderá apresentar recurso contra cada uma das sanções aplicadas, dentro do prazo de 10 dias corridos após o recebimento da respectiva sanção.</p>
+<p class="">Durante o prazo entre as sanções, é possível ainda solicitar prorrogação de prazo, caso haja justificativa formal. No caso de inadimplência no pagamento das multas, o sistema iniciará o processo de cobrança administrativa para posterior inclusão do CPF ou CNPJ na Dívida Ativa do Estado. O parcelamento também pode ser solicitado no sistema, conforme regulamentação.</p>
+<div class="source-page-marker" aria-label="Página 46 do manual original">Página 46</div>
+<p class="">Situações emergenciais, como risco iminente ou montagem de evento ou obra sem PSCIP, podem ensejar interdição ou embargo imediatos, independentemente do fluxo regular de sanções.</p>
+<p class="">O esquema a seguir ilustra essas etapas e seus respectivos prazos:</p>
+<figure class="manual-figure manual-flow" data-page="46"><button class="image-zoom" type="button" aria-label="Ampliar imagem da página 46"><img loading="lazy" src="img/telas/pagina-46-185.webp" alt="Imagem do manual INFOSCIP — página 46"></button><figcaption>Imagem do manual original — página 46. Clique para ampliar.</figcaption></figure>
+</section>
+    </article>
+  </main>
+
+  <button id="scrollTopBtn" class="scroll-top" type="button" aria-label="Voltar ao topo">↑</button>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Imagem ampliada">
+    <button id="lightboxClose" class="lightbox-close" type="button" aria-label="Fechar imagem">×</button>
+    <img id="lightboxImage" src="" alt="">
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+
+  <footer class="site-footer">
+    <div><strong>INFOSCIP Fiscalização</strong><br><span>Manual do Autuado — 1ª Edição — Versão 1.0 — Junho de 2025</span></div>
+    <img src="img/branding/logo-infoscip.webp" alt="INFOSCIP Fiscalização">
+  </footer>
+  <script src="js/manual-infoscip.js"></script>
+</body>
+</html>
